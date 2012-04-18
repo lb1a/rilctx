@@ -10,6 +10,10 @@
         "<all_urls>"
     ],
     "options_page": "options.html",
+    "browser_action": {
+        "default_icon":"link_add.png",
+        "default_popup":"popup.html"
+    },
     "icons" : {
         "16" : "link_add.png"
     }

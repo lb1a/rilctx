@@ -12,7 +12,17 @@ function post(url, params, savedUrl){
       notification.show();
     }
   }
-  request.send(params);    
+  request.send(params);
+}
+
+function retrieve(url, params) {
+ var request = new XMLHttpRequest();
+  request.open("POST", url, true);   
+  request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  request.onreadystatechange = function(){
+
+  }
+  request.send(params);
 }
 
 function getUsername(){
