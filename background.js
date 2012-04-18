@@ -15,18 +15,6 @@ function post(url, params, savedUrl){
     request.send(params);
 }
 
-function retrieve() {
-    var apiurl = "https://readitlaterlist.com/v2/get";
-    var params = getPrefix()+"&apikey=237dflebT02f3E5855ANq19D97g8Fb14"+"&state=unread";
-    var request = new XMLHttpRequest();
-    request.open("POST", apiurl, true);
-    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    request.onreadystatechange = function(){
-        document.getElementbyId("unread-posts").innerHTML('foobar');
-        alert('foobar');
-    }
-    request.send(params);
-}
 
 function getUsername(){
     var username =  encodeURIComponent(localStorage["username"]);
