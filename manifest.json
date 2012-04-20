@@ -1,6 +1,6 @@
 {
-    "name": "pocketctx",
-    "version": "0.2",
+    "name": "rilctx",
+    "version": "0.1",
     "description": "Convenient Context Menu Entry for Pocket",
     "background_page": "background.html",
     "permissions" : [
