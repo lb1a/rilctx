@@ -38,6 +38,10 @@ function getApiKey(){
     return "&apikey=eb7dmX46Taf23C2c57A2e87t0lg0Q529"
 }
 
+function getApiKey(){
+    return "&apikey=eb7dmX46Taf23C2c57A2e87t0lg0Q529"
+}
+
 function validate(){
     return localStorage["username"] && localStorage["password"];
 }
